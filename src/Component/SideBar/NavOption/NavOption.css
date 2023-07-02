@@ -1,0 +1,26 @@
+.NavOption {
+  padding: 9.31px 27.92px;
+  max-width: 294px;
+  border-radius: 4.5px;
+  cursor: pointer;
+  padding: 9px;
+}
+.NavOption:hover {
+  background-color: var(--blue-light);
+}
+
+.NavOption.active {
+  background-color: var(--blue);
+  box-shadow: 0px 2.3267974853515625px 4.653594970703125px 0px
+    rgba(138, 146, 166, 0.3);
+  font-size: 21px;
+}
+.NavOption span {
+  color: var(--blue);
+  margin-left: 10px;
+  font-size: 21px;
+  min-width: 112px;
+}
+.NavOption.NavOption.active span {
+  color: white;
+}

@@ -1,0 +1,20 @@
+.statusChart {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 316px;
+  box-shadow: 0px 4px 4px 0px #b4ceff;
+  margin-left: 18px;
+  background-color: white;
+}
+.statusChart-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.round-pill {
+  width: 8.7px;
+  height: 8.7px;
+  border-radius: 50%;
+}
+.statusChart-detail p {
+  font-size: 11px;
+}

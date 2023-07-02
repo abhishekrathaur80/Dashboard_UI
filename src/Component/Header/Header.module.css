@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 145px;
+  background-color: #0c58e6;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+}
+
+.detail {
+  position: absolute;
+  top: 25px;
+  left: 38px;
+}
+
+.detail h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+}
+.detail p {
+  color: white;
+  font-size: 22px;
+}
